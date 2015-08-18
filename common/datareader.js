@@ -26,7 +26,7 @@ function readData(data){
 		readTime(data);
 	}
 
-	$.ajax('/common/data.json')
+	$.ajax('/clicker-lister/common/data.json')
 		.done(function (gameData) {
 			// console.log(data);
 			readRelic(data.items, gameData)
